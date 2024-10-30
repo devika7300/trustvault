@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TrustVault - Online Banking Platform
 
-## Getting Started
+**TrustVault** is a cutting-edge online banking platform designed to help users manage their finances by connecting multiple bank accounts. The platform provides real-time transaction updates, seamless money transfers between users, and comprehensive tools to track and analyze spending habits.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+TrustVault offers users a secure and intuitive interface to manage their financial life. Whether checking account balances, reviewing recent transactions, or transferring money to other users, TrustVault ensures an efficient and streamlined experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Secure Authentication**: Server-side rendering (SSR) ensures highly secure authentication with robust validation and authorization, keeping user data safe.
+  
+- **Bank Account Integration**: Seamlessly integrates with Plaid to allow users to link multiple bank accounts for real-time transaction monitoring.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Unified Dashboard**: The homepage offers a consolidated view of all connected bank accounts, showing a summary of total balances, recent transactions, and categorized spending trends.
 
-## Learn More
+- **Bank Management**: Users can view and manage all connected banks from the "My Banks" section, including account details and balances.
 
-To learn more about Next.js, take a look at the following resources:
+- **Transaction History**: Users can browse their transaction history with built-in pagination and filtering tools, providing full visibility into financial activities across all accounts.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Real-Time Synchronization**: Changes, such as linking new bank accounts, are immediately reflected across all relevant pages to keep data up-to-date in real-time.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Fund Transfers**: Built-in integration with Dwolla allows users to transfer funds between accounts, requiring only recipient bank details and proper validation.
 
-## Deploy on Vercel
+- **Mobile-Friendly Design**: TrustVault is fully responsive and ensures a seamless experience across all devices, including desktops, tablets, and smartphones.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js**: Server-side rendering and client-side functionality for a seamless user experience.
+- **TypeScript**: Provides type safety for predictable and maintainable code.
+- **React Hook Form**: Efficient and scalable form management for handling inputs and validation.
+- **Zod**: Schema validation for secure data handling.
+- **TailwindCSS**: Modern utility-first CSS framework for responsive and adaptive UI design.
+- **Chart.js**: Interactive charts and data visualizations to give users insights into their financial activities.
+- **ShadCN**: A component library that enhances the user interface with ready-to-use components.
