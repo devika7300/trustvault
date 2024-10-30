@@ -34,3 +34,4 @@ TrustVault offers users a secure and intuitive interface to manage their financi
 - **Chart.js**: Interactive charts and data visualizations to give users insights into their financial activities.
 - **ShadCN**: A component library that enhances the user interface with ready-to-use components.
 - **Dwolla**: To facilitate secure fund transfers between accounts.
+- **AppWrite**: Authentication, database management, file storage.
